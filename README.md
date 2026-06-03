@@ -1,3 +1,7 @@
+## License
+
+**OnePersist** is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
 ## Guide – DLL Hijacking in OneDrive (Persistence)
 
 > **For educational and security research purposes only. Malicious use is illegal.**
