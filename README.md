@@ -2,7 +2,7 @@
 
 **OnePersist** is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-## Guide – DLL Hijacking in OneDrive (Persistence)
+# Guide – DLL Hijacking in OneDrive (Persistence)
 
 > **For educational and security research purposes only. Malicious use is illegal.**
 
@@ -64,3 +64,46 @@ This vulnerability affects both installation methods:
 - Hidden execution process (not shown in Task Manager)
 
 ---
+
+# Execution Methods
+
+### First Execution Method
+
+This method works when OneDrive is **not already running** on the target system, and the victim **manually launches OneDrive** (e.g., from the Start Menu or desktop shortcut).
+
+> **Prerequisite:** OneDrive process is not currently active in the background.
+
+---
+
+### Second Execution Method
+
+This method works when OneDrive is **already running** — either started automatically via **Windows Startup apps**, scheduled tasks, or background services — and the victim does **not** need to manually launch it.
+
+> **Prerequisite:** OneDrive is already active (e.g., auto-starts with Windows or runs as a background service).
+
+---
+
+### Comparison
+
+| Method | Condition | Trigger |
+|--------|-----------|---------|
+| **First** | OneDrive is **not running** | Victim manually launches OneDrive |
+| **Second** | OneDrive is **already running** | Auto-start via Windows Startup / background service |
+
+---
+
+# Quick Start
+
+All the steps described above have been **fully automated** and are available in the **`source`** folder.
+
+### Compilation & Execution
+
+1. Navigate to the **`build`** folder
+2. Run the **`build.bat`** script to compile the payload
+3. Execute the generated binary to activate the OnePersist technique on the target system
+
+---
+
+# Documentation
+
+For more detailed information about this technique please refer to the **`Docs`** folder.
