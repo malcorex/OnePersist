@@ -107,3 +107,9 @@ All the steps described above have been **fully automated** and are available in
 # Documentation
 
 For more detailed information about this technique please refer to the **`Docs`** folder.
+
+---
+
+# Technique Upgrade
+This technique can be easily modified for DLL Sideloading, as the `FileCoAuth.exe` process is signed by Microsoft (as demonstrated in the image below).
+
