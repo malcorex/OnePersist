@@ -112,4 +112,5 @@ For more detailed information about this technique please refer to the **`Docs`*
 
 # Technique Upgrade
 This technique can be easily modified for DLL Sideloading, as the `FileCoAuth.exe` process is signed by Microsoft (as demonstrated in the image below).
+
 ![FileCoAuth.exe Signature](./FileCoAuth.png)
