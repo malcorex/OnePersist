@@ -2,7 +2,6 @@
  * OneDrive DLL Hijack Tester
  * Author: ahura (malcorex)
  * Github: https://github.com/malcorex
- * Channel: https://t.me/Darkbitx
  * Description: Tests DLL hijack in OneDrive (FileCoAuthLib64.dll / FileCoAuthLib.dll)
  * SPDX-License-Identifier: GPL-3.0-only
  */
