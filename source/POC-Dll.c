@@ -1,7 +1,6 @@
 /*
  * Author: ahura (malcorex)
  * Github: https://github.com/malcorex
- * Channel: https://t.me/Darkbitx
  * SPDX-License-Identifier: GPL-3.0-only
  */
 
